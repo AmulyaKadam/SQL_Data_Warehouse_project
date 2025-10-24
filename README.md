@@ -148,7 +148,9 @@ SQL_Data_Warehouse_project/
 
 **Author:** Amulya Kadam  
 📧 **Email:** kadamamulya017@gmail.com
+
 💼 **GitHub:** [AmulyaKadam](https://github.com/AmulyaKadam)  
+
 🔗 **LinkedIn:** www.linkedin.com/in/amulya-kadam-8b3647208
 ---
 
