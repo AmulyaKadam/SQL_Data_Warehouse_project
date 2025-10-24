@@ -66,12 +66,12 @@ Develop a **modern data warehouse** using **SQL Server** to consolidate sales da
 
 | Category | Tools/Technologies |
 |-----------|--------------------|
-| **Database** | Microsoft SQL Server / Azure SQL |
+| **Database** | Mysql |
 | **Data Processing** | SQL Stored Procedures |
 | **ETL** | SQL-based Transformation Logic |
 | **Planning & Documentation** | Notion |
 | **Design & Diagrams** | draw.io |
-| **Visualization** | Power BI / Tableau |
+| **Visualization** | Power BI |
 | **Data Sources** | CRM & ERP CSV files |
 
 ---
@@ -90,10 +90,18 @@ SQL_Data_Warehouse_project/
 │   ├── 02_silver_layer.sql
 │   └── 03_gold_layer.sql
 │
-├── /Images/                   # Architecture & data flow diagrams
+├── /docs/                   # Architecture & data flow diagrams
 │   ├── Data_architecture.drawio.png
 │   └── Flow_diagram.drawio.png
-│
+│   └── Data_integration.drawio.png
+|   └── data_catelog.md
+|   └── naming_conventions.md
+|   └── sales_data_mart.drawio.png
+|
+├── /tests/                     # Test Scripts and Quality Files
+│   ├── quality_checks_Silver.sql
+│   └── quality_checks_Gold.sql
+|
 ├── README.md                  # Project overview and instructions
 ├── LICENSE
 └── CONTRIBUTING.md (optional)
